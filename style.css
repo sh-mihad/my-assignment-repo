@@ -13,9 +13,35 @@ h1{
 h2{
    font-size:40px;
    font-weight: 500;
+   color: #121212;
+}
+h3{
+    font-size:35px;
+    font-weight: 500;
+    color: #444;
+ }
+ h4{
+     color: #444;
+ }
+/*-----Section Title Default style css-------*/
+.donate-title{
+    width: 50%;
+    margin:auto;
+}
+.donate-title h2{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.donate-title p{
+    text-align: center;
+    padding: 0px 20px;
+    line-height:30px;
+    color:#707070 ;
+    margin-bottom:40px;
 }
 
-/*---Banner Section---*/
+/*---Banner Section Start---*/
 .banner-sec{
  background-image: url(images/donation12.png),linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
  background-blend-mode:overlay;
@@ -41,4 +67,163 @@ h2{
     padding: 0px 20px;
     line-height:30px;
     
+}
+
+/*---Banner Section End---*/
+
+/*---Donate-Collect Section Start---*/
+.donate-today{
+    padding:100px 0px;
+}
+.donate-box-main{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    
+}
+.donate-box-item{
+  
+    margin:auto;
+    padding: 10px 05px;
+    
+}
+#active-link{
+    border: solid 2px orangered;
+}
+#active-link h3{
+    color: orangered;
+}
+.doante-form{
+    width: 50%;
+    margin: 50px auto 40px auto;
+    border-bottom: solid 2px #707070;
+   
+}
+.donate-input{
+    border: none;
+    outline: none;
+    width:100%;
+    height:30px;
+    text-align: center;
+  
+}
+.donate-btn{
+    
+    text-align: center;
+    
+}
+.donate-btn a{
+   background-color: #FF5959;
+   padding: 15px 20px;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+}
+/*---Donate-Collect Section End---*/
+/*---Donate-Plan Section Start---*/
+.donate-plan-main{
+    display: flex;
+    width:80%;
+    margin: auto;
+    
+    
+}
+.donate-plan-item{
+    width:30%;
+    margin:0px auto 80px auto;
+    padding: 50px 10px;
+    
+}
+.donate-plan-item p{
+    padding-right: 20px;
+    line-height:30px;
+    color:#707070 ;
+    margin-bottom:40px;    
+}
+#plan-item-1{
+    background-color: #4f9da670;
+}
+#plan-item-2{
+    background-color: #ffeeee;
+}
+#plan-item-3{
+    background-color: #fff4d6;
+}
+/*---Donate-Plan Section End---*/
+/*---Mison-achived Section start---*/
+.misson-achived-main{
+    display: flex;
+    width:60%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.misson-item{
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+     width:50%;
+    box-shadow: 0px 0px 10px grey;
+   
+}
+.misson-item h3{
+    text-align: center;
+    color: #444;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+}
+.misson-item p{
+    text-align: center;
+    margin-top: 10px;
+    font-size:25px;
+    color: #444;
+    font-weight: bold;
+}
+/*---Mison-achived Section end---*/
+/*---Get-in-touch Section Start---*/
+.get-in-main{
+    width:50%;
+    margin: 50px auto;
+    background-color:#FFF4D6;
+    padding:80px 80px;
+}
+.get-in-list{
+    width:70%;
+    margin: auto;
+}
+
+.tt-a{
+    width: 75%;
+    height:30px;
+    background-color: #ffeeee;
+    outline: none;
+    border:1px solid #707070;
+    
+}
+.tt-b{
+    width: 20%;
+    background-color:#FF5959;
+    padding: 10px;
+    outline:none;
+    border: none;
+    color: white;
+    
+}
+/*---Get-in-touch Section End---*/
+/*---Footer Section---*/
+footer{
+    background-color: black;
+    padding:50px 0px;
+}
+footer h4{
+    text-align: center;
+    font-size: 25px;
+    color: #FF5959;
+    margin-bottom: 5px;
+
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top:0px;
 }
